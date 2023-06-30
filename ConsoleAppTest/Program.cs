@@ -38,7 +38,7 @@ builder.Services.AddOptions();
 builder.Configuration.AddJsonFile("/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/app-settings.json");
 builder.Services.Configure<JSONPATH>(builder.Configuration.GetSection("JSONPATH"));
 
-
+builder.Services.BuildServiceProvider();
 
 
 builder.Services.AddTransient<IMongoRepository, MongoRepository>();
@@ -50,10 +50,17 @@ builder.Services.AddSingleton<IMongoClient>(sp => new MongoClient(builder.Config
 
 builder.Services.AddTransient<IRepository<Entity>, JsonRepository>();
 builder.Services.AddTransient<IRepository<Entity>, MongoRepository>();
-builder.Services.AddTransient<IStorageManager, StorageManager<IRepository<WeatherEntity>>>();
 
 
-builder.Services.BuildServiceProvider();
+
+builder.Services.AddTransient<IStorageManager, StorageManager>(); //что я хочу прокидывать в конструктор
+
+//builder.Services.AddTransient<IStorageManager, StorageManager<IRepository<WeatherEntity>>>(); //что я хочу прокидывать в конструктор
+
+
+builder.Services.AddTransient<IRepositoryChooser, RepositoryChooser<IRepository<WeatherEntity>>>(); //что я хочу прокидывать в конструктор
+
+
 
 //builder.Services.AddTransient<IRepository<Entity>, MongoRepository>();
 
