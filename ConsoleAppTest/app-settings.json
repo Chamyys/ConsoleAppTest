@@ -1,0 +1,14 @@
+{
+"Database": {
+"ConnectionStrings": "mongodb://localhost:27017",
+"DatabaseName": "WeatherDatabase",
+"CollectionName": "Weather"
+}, 
+"JSONPATH": {
+    "ConnectionString": "/home/egor/JSONTEST/", 
+    "Name": "weatherName"
+}, 
+"ConnectionStrings":{
+    "Mongo": "mongodb://0.0.0.0:27017"
+}
+}

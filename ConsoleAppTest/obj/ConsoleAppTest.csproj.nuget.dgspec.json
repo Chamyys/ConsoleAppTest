@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.2.2, )"
@@ -53,6 +57,10 @@
             "Microsoft.DotNet.PlatformAbstractions": {
               "target": "Package",
               "version": "[5.0.0-preview.5.20278.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

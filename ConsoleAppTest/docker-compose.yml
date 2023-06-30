@@ -16,7 +16,7 @@ services:
       # Команда, которая будет выполнена после старта сервиса
     command: make start
     restart: always
-    ports: # Проброс портов
+    ports: # Проброс портов 
       - "3000:80"
     # Перечисляем тома (volumes)
     # Они будут подключены к файловой системе сервиса
@@ -26,5 +26,7 @@ services:
     image: mongo
     restart: always
     ports:
-      - "8081:8081"
+      - "27017:27017"
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
 

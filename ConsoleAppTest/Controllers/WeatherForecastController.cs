@@ -1,16 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using Microsoft.Extensions.Options;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
+using MongoDB.Driver;
+using MyMicroservice.Controllers;
+
 
 namespace MyMicroservice.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class WeatherForecastController : Controller
 {
+    
+
     private static readonly string[] Summaries = new[]
     {
-        "dOtddd"
-        
+        "fwaf"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
@@ -27,7 +37,8 @@ public class WeatherForecastController : ControllerBase
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+           Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            //  Summary = JsonSerialisation.Read("2").Id
         })
         .ToArray();
     }
