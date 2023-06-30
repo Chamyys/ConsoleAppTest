@@ -1,0 +1,13 @@
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/ConsoleAppTest
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/ConsoleAppTest.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/ConsoleAppTest.deps.json
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/ConsoleAppTest.runtimeconfig.json
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/ConsoleAppTest.pdb
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Microsoft.DotNet.PlatformAbstractions.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Microsoft.Extensions.DependencyModel.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Microsoft.OpenApi.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Newtonsoft.Json.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/egor/RiderProjects/ConsoleAppTest/ConsoleAppTest/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

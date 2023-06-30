@@ -1,0 +1,15 @@
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/bin/Release/net7.0/ClassLibrary1.deps.json
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/bin/Release/net7.0/ClassLibrary1.dll
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/bin/Release/net7.0/ClassLibrary1.pdb
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/bin/Release/net7.0/Newtonsoft.Json.dll
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/bin/Release/net7.0/Newtonsoft.Json.xml
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.csproj.AssemblyReference.cache
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.AssemblyInfoInputs.cache
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.AssemblyInfo.cs
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.csproj.CoreCompileInputs.cache
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.csproj.CopyComplete
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.dll
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/refint/ClassLibrary1.dll
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ClassLibrary1.pdb
+/home/egor/RiderProjects/ConsoleAppTest/ClassLibrary1/obj/Release/net7.0/ref/ClassLibrary1.dll
