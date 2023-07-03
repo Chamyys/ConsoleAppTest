@@ -2,8 +2,14 @@
 
 namespace MyMicroservice.Controllers;
 
-public class Entity
+public abstract class Entity : IEntity
 {
-    //[BsonId]
     public string Id { get; set; }
+
+    public string getStorePlace(Func<string> f)
+    {
+        return f();
+    }
+
+    public abstract string getRealStorePlace();
 }

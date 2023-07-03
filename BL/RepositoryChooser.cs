@@ -8,14 +8,8 @@ public class RepositoryChooser<T> : IRepositoryChooser
         _repositories = repositories;
     }
     
-    public IRepository<Entity> choose(Entity entity)
+    public IRepository<Entity> choose(Entity entity) 
     {
-        if (((WeatherEntity)entity).temperature > 25)
-        {
-            return _repositories.FirstOrDefault(h => h.GetType().Namespace == "ConsoleAppTest.Repositories.MongoRepositories");
-
-        }
-        return _repositories.FirstOrDefault(h => h.GetType().Namespace == "ConsoleAppTest.Repositories.JsonRepositories");
-
+        return _repositories.FirstOrDefault(h => h.GetType().Namespace == entity.getStorePlace(entity.getRealStorePlace)); // можно прокидывать изначатльный тип объекта вторым параметром и приводить его тут 
     }
 }

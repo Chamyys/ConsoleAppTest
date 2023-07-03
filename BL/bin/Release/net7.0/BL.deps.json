@@ -9,6 +9,7 @@
       "BL/1.0.0": {
         "dependencies": {
           "FluentResults": "3.15.2.0",
+          "MongoDB.Bson": "2.19.2.0",
           "Newtonsoft.Json": "9.0.0.0"
         },
         "runtime": {
@@ -20,6 +21,14 @@
           "FluentResults.dll": {
             "assemblyVersion": "3.15.2.0",
             "fileVersion": "3.15.2.0"
+          }
+        }
+      },
+      "MongoDB.Bson/2.19.2.0": {
+        "runtime": {
+          "MongoDB.Bson.dll": {
+            "assemblyVersion": "2.19.2.0",
+            "fileVersion": "2.19.2.0"
           }
         }
       },
@@ -40,6 +49,11 @@
       "sha512": ""
     },
     "FluentResults/3.15.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/2.19.2.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
